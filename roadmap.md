@@ -1,67 +1,75 @@
-* Core (Client / Protocol)
-    * Namecore
-        * Deterministic Builds
-        * Build on Windows
-        * Alert Keys?
-    * Strategic changes / Hardforks
-        * name db hash
-        * fees (also destroying coins)
-            * find consensus
-        * value size
-        * Bitcoin compatibility
-        * dust
+- Core (Client / Protocol)
+    - Namecoin Core
+        - Deterministic Builds for Windows (Gitian)
+        - Alert Keys
+    - Strategic changes / Hardforks
+        - name db hash
+        - fees (also destroying coins)
+            - find consensus
+        - value size
+        - Bitcoin compatibility
+        - dust
 
-* __Core GUI__
-    * Armory
-        * Name OP handling
-        * Package/merge with NMControl?
-    * Alternatives?
-        * Electrum without server???
-        * HttpGUI?
-        * others?
+- __Core GUI__
+    - nameGUI?
+        - test
+        - Bundle with client
+        - data entry
+        - nametrade/ANTPY
+        - lookup data interfacing (or open NMControl httpBrowser?)
+    - Port Name Tab???
+    - Alternatives? (Armory, Electrum)
 
 - Application
-    - __Open Source Blockexplorer__
+    - __Namecoin Bundle__ (Client, NMCtrl, resolver installation)
     - Light Resolving
         - API server (experimental version is online)
         - Semi safe SVP via merkle tree and blockheaders
-        - SPV?
+        - SPV
     - NMControl
         - TLS
             - new DNS server
         - API mode (experimental version works)
         - Tor support?
+        - Tor browser support?
         - __i2p support__?
         - __redirection to legacy domains__ (coolsite.bit --> coolsite.freedomainhoster.com)  ???
-        - improve http GUI name browser
-        - ANTPY plugin?
+        - improve http GUI name browser?
 
-- Marketing
+- Documentation & Communication
     - Improve the wiki
         - done? Port missing pages from the old wiki
         - done? Beginner manual ("getting started")
-        ! List of tools / code snippets
+        - __List of resources__ (tools / libs / code snippets)
+        - __Mining instructions__
+    - Define, implement and foster communication channels
+        - __Tor chat__
+
+ - Marketing & Recruiting
     - Make __httpS://namecoin.org__ standard URL
     - Use new logo everywhere (bitcointalk, twitter, blog)
     - Get more websites on .bit (maybe as an additional shortcut domain?)
+    - Positions (open) like https://geti2p.net/de/about/team
 
-- Administration
-    - Forum (update!)
-    - Define, implement and foster communication channels
+- Ongoing Tasks
+    - Maintenance
+        - Server
+        - Website
+        - Wiki
+        - Forum (update!)
     - Namecoin Core Bitcoin downstream
     - Donations
-    - Funding
     - Bounties
-    - Releases via Github?
+    - Funding?
+
+- Projects / Research / New Applications
+    - All releases via Github?
     - Standardize tools
         - python rpc to core
         - nameprocess
-
-- Projects / Research / New Applications
     - URI Scheme for names
-    - Make atomic name trading easier (GUI?)
-    - file signing (plugin for NMControl?)
-    - create and read IDs (plugin for NMControl?)
+    - file signing (NMControl? / nameGUI?)
+    - create and read IDs (NMControl?  / nameGUI?)
     - __WOT__
     - DHT?
     - File signing (maybe combine with timestamping?)
@@ -73,6 +81,3 @@
     - revocation?
     - name_update without privkey???
     - ...
-
-
-
