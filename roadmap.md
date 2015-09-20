@@ -1,3 +1,4 @@
+#Namecoin Roadmap
 - Core (Client / Protocol)
     - Namecoin Core
         - Deterministic Builds for Windows (Gitian)
@@ -81,3 +82,8 @@
     - revocation?
     - name_update without privkey???
     - ...
+
+##Legend
+__bold__ : important
+! : urgent
+? : to be discussed further
