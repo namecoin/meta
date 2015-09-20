@@ -50,7 +50,6 @@
     - Make __httpS://namecoin.org__ standard URL
     - Use new logo everywhere (bitcointalk, twitter, blog)
     - Get more websites on .bit (maybe as an additional shortcut domain?)
-    - Positions (open) like https://geti2p.net/de/about/team
 
 - Ongoing Tasks
     - Maintenance
