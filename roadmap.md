@@ -84,6 +84,6 @@
     - ...
 
 ##Legend
-__bold__ : important
-! : urgent
-? : to be discussed further
+__bold__ : important  
+! : urgent  
+? : to be discussed further  
