@@ -69,11 +69,12 @@
         - python rpc to core
         - nameprocess
     - URI Scheme for names
-    - file signing (NMControl? / nameGUI?)
     - create and read IDs (NMControl?  / nameGUI?)
     - __WOT__
     - DHT?
-    - File signing (maybe combine with timestamping?)
+    - File signing [**F**](https://forum.namecoin.org/viewtopic.php?f=2&t=1059)
+        - maybe combine with timestamping?
+        - NMControl / nameGUI?
     - Timestamping
     - Even further Bitmessage integration (replace all by IDs?)
     - Full eMail client integration (PGP / ECC)
@@ -87,3 +88,6 @@
 __bold__ : important  
 ! : urgent  
 ? : to be discussed further  
+__F__ : [forum link](https://forum.namecoin.org)  
+__G__ : [Github link](https://github.com/namecoin)  
+__O__ : other link  
