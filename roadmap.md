@@ -44,7 +44,6 @@
         - __List of resources__ (tools / libs / code snippets)
         - __Mining instructions__
     - Define, implement and foster communication channels
-        - __Tor chat__
 
  - Marketing & Recruiting
     - Make __httpS://namecoin.org__ standard URL
