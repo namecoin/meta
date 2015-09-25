@@ -22,7 +22,7 @@
     - Alternatives? (Armory, Electrum)
 
 - Application
-    - __Namecoin Bundle__ (Client, NMCtrl, resolver installation)
+    - ? Namecoin Bundle (Client, NMCtrl, resolver installation)
     - Light Resolving
         - API server (experimental version is online)
         - Semi safe SVP via merkle tree and blockheaders
