@@ -5,11 +5,34 @@
         - Alert Keys
     - Strategic changes / Hardforks
         - name db hash
-        - fees (also destroying coins)
-            - find consensus
-        - value size
+            - (Need to elaborate on this point -- is this the same as UNO commitments?)
+        - Revise fee structure
+            - E.g. whether to destroy name fees, what the correct name fees should be, etc.
+            - Need to find consensus.
+        - Value size
+            - Related to fee structure.
+            - Investigate whether could be done as softfork (e.g. with multiple PUSHDATAs).
         - Bitcoin compatibility
-        - dust
+            - (Need to elaborate on this -- not sure what this is?  --Jeremy)
+        - Dust Spam
+            - Around blocks 39k-41k, an attacker spammed dust outputs.
+            - Should we make these unspendable?
+            - Might decrease UTXO size significantly.
+        - Merged mining protocol changes
+            - Two possible alternatives
+                - P2Pool
+                    - Decreases size of auxpow headers.
+                    - Might not decrease as much as Blockstream.
+                    - No Bitcoin changes needed.
+                    - Implementation in use by P2Pool.
+                    - Formal spec not complete.
+                - Blockstream
+                    - Decreases size of auxpow headers.
+                    - Might be cleaner than P2Pool.
+                    - Requires a Bitcoin hardfork.
+                    - Intended to be used by Blockstream's "pegged sidechains".
+                    - Spec and implementation not public (nor written) yet.
+            - Get feedback from miners on how this would affect them
 
 - __Core GUI__
     - nameGUI?
