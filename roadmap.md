@@ -12,14 +12,20 @@
         - dust
 
 - __Core GUI__
-    - nameGUI?
+    - Get consensus on how to proceed.
+    - 3 suggested options
+    - Phelix's nameGUI?
         - test
         - Bundle with client
         - data entry
         - nametrade/ANTPY
         - lookup data interfacing (or open NMControl httpBrowser?)
-    - Port Name Tab???
-    - Alternatives? (Armory, Electrum)
+    - Port Namecoin-Qt Name Tab to Namecoin Core?
+        - moa offered an unspecified bounty for this
+    - Alternative wallets? 
+        - Armory
+            - FSM is sponsoring some bounties
+        - Electrum
 
 - Application
     - ? Namecoin Bundle (Client, NMCtrl, resolver installation)
