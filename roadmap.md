@@ -1,4 +1,13 @@
 #Namecoin Roadmap
+###Abbreviations
+__TBD__ : to be discussed
+__F__ : [forum link](https://forum.namecoin.org)  
+__G__ : [Github link](https://github.com/namecoin)  
+__O__ : other link  
+! : urgent
+__bold__ : important  
+
+
 - Core (Client / Protocol)
     - Namecoin Core
         - Deterministic Builds for Windows (Gitian)
@@ -7,42 +16,42 @@
         - name db hash
         - fees (also destroying coins)
             - find consensus
-        - value size
+        - value size (520 bytes limitation)
         - Bitcoin compatibility
         - dust
 
 - __Core GUI__
-    - nameGUI?
+    - nameGUI (__TBD__)
         - test
         - Bundle with client
         - data entry
-        - nametrade/ANTPY
-        - lookup data interfacing (or open NMControl httpBrowser?)
-    - Port Name Tab???
-    - Alternatives? (Armory, Electrum)
+        - nametrade / ANTPY
+        - lookup data interfacing (or open NMControl httpBrowser; __TBD__)
+    - Port Name Tab (__TBD__)
+    - Alternatives (__TBD__; Armory, Electrum)
 
 - Application
-    - ? Namecoin Bundle (Client, NMCtrl, resolver installation)
+    - Namecoin Bundle (__TBD__; client, NMCtrl, resolver installation)
     - Light Resolving
         - API server (experimental version is online)
-        - Semi safe SVP via merkle tree and blockheaders
+        - Semi-safe SVP via merkle tree and blockheaders
         - SPV
     - NMControl
         - TLS
             - new DNS server
         - API mode (experimental version works)
-        - Tor support?
-        - Tor browser support?
-        - __i2p support__?
-        - __redirection to legacy domains__ (coolsite.bit --> coolsite.freedomainhoster.com)  ???
-        - improve http GUI name browser?
+        - Tor support (__TBD__)
+        - Tor browser support (__TBD__)
+        - __i2p support__ (__TBD__)
+        - __redirection to legacy domains__ (__TBD__; coolsite.bit --> coolsite.freedomainhoster.com) 
+        - improve http GUI name browser (__TBD__)
 
 - Documentation & Communication
     - Improve the wiki
         - done? Port missing pages from the old wiki
-        - done? Beginner manual ("getting started")
+        - done? Beginner's manual ("getting started")
         - __List of resources__ (tools / libs / code snippets)
-        - __Mining instructions__
+        - __Merged-mining instructions__
     - Define, implement and foster communication channels
 
  - Marketing & Recruiting
@@ -55,37 +64,29 @@
         - Server
         - Website
         - Wiki
-        - Forum (update!)
+        - Forum (software update!)
     - Namecoin Core Bitcoin downstream
     - Donations
     - Bounties
-    - Funding?
+    - Funding (__TBD__)
 
 - Projects / Research / New Applications
-    - All releases via Github?
+    - All releases via Github (__TBD__)
     - Standardize tools
         - python rpc to core
         - nameprocess
     - URI Scheme for names
-    - create and read IDs (NMControl?  / nameGUI?)
+    - Create and read IDs (NMControl / nameGUI)
     - __WOT__
-    - DHT?
+    - DHT (__TBD__)
     - File signing [**F**](https://forum.namecoin.org/viewtopic.php?f=2&t=1059)
-        - maybe combine with timestamping?
-        - NMControl / nameGUI?
+        - maybe combine with timestamping (__TBD__)
+        - NMControl / nameGUI (__TBD__)
     - Timestamping
-    - Even further Bitmessage integration (replace all by IDs?)
+    - Even further Bitmessage integration (replace all by IDs? __TBD__)
     - Full eMail client integration (PGP / ECC)
     - Electrum integration (should be relatively easy to do)
     - give more weight to names by sending NMC to them
-    - revocation?
-    - name_update without privkey???
-    - ...
-
-##Legend
-__bold__ : important  
-! : urgent  
-? : to be discussed further  
-__F__ : [forum link](https://forum.namecoin.org)  
-__G__ : [Github link](https://github.com/namecoin)  
-__O__ : other link  
+    - revocation (__TBD__)
+    - name_update without privkey (__TBD__)
+    - P2Pool sharechain implementation [**F**](https://github.com/p2pool/p2pool/issues/265)
