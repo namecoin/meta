@@ -1,10 +1,10 @@
 #Namecoin Roadmap
 ###Abbreviations
-__TBD__ : to be discussed
+__TBD__ : to be discussed  
 __F__ : [forum link](https://forum.namecoin.org)  
 __G__ : [Github link](https://github.com/namecoin)  
 __O__ : other link  
-! : urgent
+! : urgent  
 __bold__ : important  
 
 
@@ -34,7 +34,7 @@ __bold__ : important
     - Namecoin Bundle (__TBD__; client, NMCtrl, resolver installation)
     - Light Resolving
         - API server (experimental version is online)
-        - Semi-safe SVP via merkle tree and blockheaders
+        - Semi-safe SPV via merkle tree and blockheaders
         - SPV
     - NMControl
         - TLS
