@@ -38,8 +38,8 @@ __bold__ : important
         - Semi-safe SPV via merkle tree and blockheaders
         - SPV
     - NMControl
+        - __Release__
         - TLS
-            - new DNS server
         - API mode (experimental version works)
         - Tor support (__TBD__)
         - Tor browser support (__TBD__)
