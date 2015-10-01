@@ -6,8 +6,9 @@ __G__ : [Github link](https://github.com/namecoin)
 __O__ : other link  
 ! : urgent  
 __bold__ : important  
-
-
+   
+- - - -  
+   
 - Core (Client / Protocol)
     - Namecoin Core
         - Deterministic Builds for Windows (Gitian)
