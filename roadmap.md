@@ -14,6 +14,7 @@ __bold__ : important
         - Deterministic Builds for Windows (Gitian)
         - Alert Keys
     - Strategic changes / Hardforks
+        - ! merged mining format (BIP9) [__F__](https://forum.namecoin.info/viewtopic.php?f=5&t=2466)
         - name db hash
         - fees (also destroying coins)
             - find consensus
@@ -22,30 +23,25 @@ __bold__ : important
         - dust
 
 - __Core GUI__
-    - nameGUI (__TBD__)
-        - test
-        - Bundle with client
-        - data entry
-        - nametrade / ANTPY
-        - lookup data interfacing (or open NMControl httpBrowser; __TBD__)
-    - Port Name Tab (__TBD__)
-    - Alternatives (__TBD__; Armory, Electrum)
+    - Port Name Tab [__F__](https://forum.namecoin.info/viewtopic.php?f=2&t=2479)
+    - nameGUI (ANTPY) [__F__](https://forum.namecoin.info/viewtopic.php?f=9&t=2309)
 
 - Application
     - Namecoin Bundle (__TBD__; client, NMCtrl, resolver installation)
     - Light Resolving
-        - API server (experimental version is online)
-        - Semi-safe SPV via merkle tree and blockheaders
-        - SPV
+        - API server (experimental version is online) [__F__](https://forum.namecoin.info/viewtopic.php?f=9&t=2227)
+        - PoW secured API server [__F__](https://forum.namecoin.info/viewtopic.php?f=5&t=2223)
+        - SPV [bounty](https://forum.namecoin.info/viewtopic.php?f=18&t=2281) [__F__](https://forum.namecoin.info/viewtopic.php?f=18&t=2273) 
     - NMControl
         - TLS
-            - new DNS server
-        - API mode (experimental version works)
+            - new DNS server (__TBD__)
+            - via local proxy (prototype available) [__F__](https://forum.namecoin.info/viewtopic.php?f=9&t=2436)
+        - API mode (prototype available) [__F__](https://forum.namecoin.info/viewtopic.php?f=8&t=2174)
         - Tor support (__TBD__)
         - Tor browser support (__TBD__)
         - __i2p support__ (__TBD__)
-        - __redirection to legacy domains__ (__TBD__; coolsite.bit --> coolsite.freedomainhoster.com) 
-        - improve http GUI name browser (__TBD__)
+        - __redirection to legacy domains__ (__TBD__; coolsite.bit --> coolsite.freedomainhoster.com; easy with proxy)
+        - improve http GUI name browser (experimental version available) [__F__](https://forum.namecoin.info/viewtopic.php?f=8&t=2174)
 
 - Documentation & Communication
     - Improve the wiki
@@ -56,8 +52,8 @@ __bold__ : important
     - Define, implement and foster communication channels
 
  - Marketing & Recruiting
-    - Make __httpS://namecoin.org__ standard URL
-    - Use new logo everywhere (bitcointalk, twitter, blog)
+    - Make __httpS://namecoin.ORG__ standard URL
+    - Use [new logo](https://github.com/namecoin/namecoin-graphics) everywhere (bitcointalk, twitter, blog)
     - Get more websites on .bit (maybe as an additional shortcut domain?)
 
 - Ongoing Tasks
@@ -68,7 +64,7 @@ __bold__ : important
         - Forum (software update!)
     - Namecoin Core Bitcoin downstream
     - Donations
-    - Bounties
+    - Bounties [__F__](https://forum.namecoin.info/viewforum.php?f=18)
     - Funding (__TBD__)
 
 - Projects / Research / New Applications
@@ -76,18 +72,20 @@ __bold__ : important
     - Standardize tools
         - python rpc to core
         - nameprocess
-    - URI Scheme for names
+    - __URI Scheme for names__ [__F__](https://forum.namecoin.info/viewtopic.php?f=5&t=1905)
     - Create and read IDs (NMControl / nameGUI)
-    - __WOT__
-    - DHT (__TBD__)
-    - File signing [**F**](https://forum.namecoin.org/viewtopic.php?f=2&t=1059)
+    - __WOT__ [__F__](https://forum.namecoin.info/viewtopic.php?f=5&t=1522)
+    - DHT / external data storage (__TBD__)
+    - File signing [bounty](https://forum.namecoin.info/viewtopic.php?f=18&t=2281) [**F**](https://forum.namecoin.org/viewtopic.php?f=2&t=1059)
         - maybe combine with timestamping (__TBD__)
         - NMControl / nameGUI (__TBD__)
     - Timestamping
-    - Even further Bitmessage integration (replace all by IDs? __TBD__)
+    - Even further Bitmessage integration (replace all by IDs? __TBD__) [bounty](https://forum.namecoin.info/viewtopic.php?f=18&t=2281)
     - Full eMail client integration (PGP / ECC)
     - Electrum integration (should be relatively easy to do)
-    - give more weight to names by sending NMC to them
+    - give more weight to names by sending NMC to them [__F__](https://forum.namecoin.info/viewtopic.php?f=2&t=1422)
     - revocation (__TBD__)
     - name_update without privkey (__TBD__)
     - P2Pool sharechain implementation [**F**](https://github.com/p2pool/p2pool/issues/265)
+    - Torrent Tracking [__F__](https://forum.namecoin.info/viewtopic.php?f=5&t=1381)
+    - Namecoin Local PGP Keyserver (early version available) [__F__](https://forum.namecoin.info/viewtopic.php?f=9&t=2476)
