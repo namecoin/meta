@@ -11,8 +11,17 @@ __bold__ : important
    
 - Core (Client / Protocol)
     - Namecoin Core
-        - Deterministic Builds for Windows (Gitian)
+        - Namecoin Core is the intended replacement for NamecoinQ.
+        - Deterministic Builds for Windows and OS X
+            - Gitian will in theory work out of the box for this.
+            - Need to get volunteers to run Gitian builds.
+                - Joseph Bisch and midnightmagic helped during the OpenSSL Consensus Bug response.
+                - See if they're willing to continue doing this.
+                - Jeremy doesn't have a Gitian setup anymore due to OS incompatibilities.
         - Alert Keys
+            - Right now the alert key used in the Namecoin network is Vincent Durham's key.
+            - Need to replace it with a key held by current developers.
+            - Need to figure out exactly who should hold the key.
     - Strategic changes / Hardforks
         - ! merged mining format (BIP9) [__F__](https://forum.namecoin.info/viewtopic.php?f=5&t=2466)
         - name db hash
